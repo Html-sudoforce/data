@@ -50,8 +50,8 @@
 
     // Iframe
     const iframe = document.createElement("iframe");
-  //  iframe.src = `https://ai-sale-system.freedev.app/proxy.php?id=${businessId}`;
-  iframe.src="https://ai-sale-system.freedev.app/Home";
+ iframe.src = `https://ai-sale-system.freedev.app/proxy.php?id=${businessId}`;
+ // iframe.src="https://ai-sale-system.freedev.app/Home";
     iframe.style.width = "100%";
     iframe.style.height = "100%";
     iframe.style.border = "none";
